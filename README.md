@@ -24,7 +24,7 @@
 2. Clone our repository and install the setup-tools dependencies using pip install -e command. <br />
    Please find the following commands for the same. <br />
 
-    ! git clone https://github.com/darakshananwar13/CSCE_689_RL_PROJECT.git <br />
+   > ! git clone https://github.com/darakshananwar13/CSCE_689_RL_PROJECT.git <br />
     % cd CSCE_689_RL_PROJECT/qmap-master/ <br />
     !pip install -e . <br />
 
@@ -35,7 +35,7 @@
 5. In order to run Super Mario game, we need to copy the game environment in the directory where GYM retro is installed. <br /> 
    Please follow the commands below to copy in google-colab environment. <br />
    
-    !cp "/content/CSCE_689_RL_PROJECT/qmap-master/SuperMarioAllStars-Snes.zip" "/usr/local/lib/python3.6/dit-  packages/retro/data/stable" <br />
+   > !cp "/content/CSCE_689_RL_PROJECT/qmap-master/SuperMarioAllStars-Snes.zip" "/usr/local/lib/python3.6/dit-  packages/retro/data/stable" <br />
     % cd /usr/local/lib/python3.6/dist-packages/retro/data/stable <br />
     !unzip SuperMarioAllStars-Snes.zip <br />
 
