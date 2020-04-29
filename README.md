@@ -11,8 +11,8 @@
 1. Install  TensorFlow, Baselines, Gym and Gym Retro.<br />
    Please find the following command used for installing these in google colab.<br />
    
-    ! git clone https://github.com/openai/baselines.git <br />
-    % cd baselines <br />
+    > ! git clone https://github.com/openai/baselines.git <br />
+    > % cd baselines <br />
     ! pip install -e . <br />
     % cd .. <br />
     !apt-get install pkg-config lua5.1 build-essential libav-tools git <br />
