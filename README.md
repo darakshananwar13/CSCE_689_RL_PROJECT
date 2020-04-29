@@ -8,18 +8,18 @@
 
 ## Steps to follow for running the given source code 
 
-1. Install  TensorFlow, Baselines, Gym and Gym Retro.<br />
-   Please find the following command used for installing these in google colab.<br />
-   
-    > ! git clone https://github.com/openai/baselines.git <br />
-    > % cd baselines <br />
-    ! pip install -e . <br />
-    % cd .. <br />
-    !apt-get install pkg-config lua5.1 build-essential libav-tools git <br />
-    !pip install tqdm retrowrapper gym-retro <br />
-    !pip install -U git+git://github.com/frenchie4111/dumbrain.git <br />
-    %tensorflow_version 1.x <br />
-
+1. Install  TensorFlow, Baselines, Gym and Gym Retro.
+   Please find the following command used for installing these in google colab.
+   ```bash
+    ! git clone https://github.com/openai/baselines.git 
+     % cd baselines 
+    ! pip install -e .
+    % cd ..
+    !apt-get install pkg-config lua5.1 build-essential libav-tools git
+    !pip install tqdm retrowrapper gym-retro
+    !pip install -U git+git://github.com/frenchie4111/dumbrain.git
+    %tensorflow_version 1.x 
+   ```
 
 2. Clone our repository and install the setup-tools dependencies using pip install -e command. <br />
    Please find the following commands for the same. <br />
