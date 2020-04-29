@@ -10,6 +10,7 @@
 
 1. Install  TensorFlow, Baselines, Gym and Gym Retro.<br />
    Please find the following command used for installing these in google colab.<br />
+   
     ! git clone https://github.com/openai/baselines.git <br />
     % cd baselines <br />
     ! pip install -e . <br />
@@ -33,11 +34,13 @@
 4. Run train_montezuma.py in order to train model for montezume game. <br />
 5. In order to run Super Mario game, we need to copy the game environment in the directory where GYM retro is installed. <br /> 
    Please follow the commands below to copy in google-colab environment. <br />
+   
     !cp "/content/CSCE_689_RL_PROJECT/qmap-master/SuperMarioAllStars-Snes.zip" "/usr/local/lib/python3.6/dit-  packages/retro/data/stable" <br />
     % cd /usr/local/lib/python3.6/dist-packages/retro/data/stable <br />
     !unzip SuperMarioAllStars-Snes.zip <br />
 
    Now, run train_mario.py for training the model for Mario game. <br />
+   
 6. We can find the videos of the game played during training saved under “result” folder created. <br />
 
 
