@@ -8,9 +8,8 @@
 
 ## Steps to follow for running the given source code 
 
-1. Install  TensorFlow, Baselines, Gym and Gym Retro.
+1. Install Â TensorFlow,Â Baselines,Â GymÂ andÂ Gym Retro.
 Please find the following snippet used for installing these in google colab.
-
 
 
 2. Clone our repository and install the setup-tools dependencies using pip install -e command.
@@ -24,6 +23,6 @@ Please find the following snippet for the same.
 Please follow the snippet below to copy in google-colab environment.
 
 Now, run train_mario.py for training the model for Mario game.
-6. We can find the videos of the game played during training saved under “result” folder created.
+6. We can find the videos of the game played during training saved under â€œresultâ€ folder created.
 
 
