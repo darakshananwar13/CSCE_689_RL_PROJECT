@@ -21,18 +21,18 @@
 - Clone our repository and install the setup-tools dependencies using `pip install -e` command. Please find the following commands for the same.
 ```bash
 ! git clone https://github.com/darakshananwar13/CSCE_689_RL_PROJECT.git
-% cd CSCE_689_RL_PROJECT/qmap-master/
+% cd CSCE_689_RL_PROJECT/
 !pip install -e . 
 ```
-- Run `train_gridworld.py` in order to train for grid world.
-- Run `train_montezuma.py` in order to train model for montezume game. 
+- Go to qmap and run `train_gridworld.py` in order to train for grid world.
+- Go to qmap and Run `train_montezuma.py` in order to train model for montezume game. 
 - In order to run Super Mario game, we need to copy the game environment in the directory where GYM retro is installed. Please follow the commands below to copy in google-colab environment.
 ```bash   
-!cp "/content/CSCE_689_RL_PROJECT/qmap-master/SuperMarioAllStars-Snes.zip" "/usr/local/lib/python3.6/dit-  packages/retro/data/stable" 
+!cp "/content/CSCE_689_RL_PROJECT/qmap/SuperMarioAllStars-Snes.zip" "/usr/local/lib/python3.6/dist-packages/retro/data/stable" 
 % cd /usr/local/lib/python3.6/dist-packages/retro/data/stable
-!unzip SuperMarioAllStars-Snes.zip 
+!unzip SuperMarioAllStars-Snes.zip
 ```
-Now, run `train_mario.py` for training the model for Mario game. 
+Now, Go to qmap and run `train_mario.py` for training the model for Mario game. 
 - We can find the videos of the game played during training saved under "result" folder created.
 
 
